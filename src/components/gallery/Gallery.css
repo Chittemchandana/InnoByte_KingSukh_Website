@@ -1,0 +1,16 @@
+.gallery_header {
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery_header::after {
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 7%;
+    background-color: #e82574;
+    transform: translate(110%);
+}

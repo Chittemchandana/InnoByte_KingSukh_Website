@@ -1,0 +1,18 @@
+ .about{
+    /* margin-bottom: 0; */
+    margin-top: 1.5rem;
+    position: relative;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+  }
+  
+.about::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    transform: translate(1rem, -50%);
+    height: 2px;
+    width: 4rem;
+    background-color: #e82574;
+  }

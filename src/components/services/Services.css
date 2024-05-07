@@ -1,0 +1,15 @@
+.h3_header {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.h3_header::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    border-radius: 100px;
+    background-color: #e82574;
+    transform: translate(130%);
+}

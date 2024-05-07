@@ -1,0 +1,15 @@
+.room_header {
+    position: relative;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.room_header::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    border-radius: 100px;
+    transform: translate(1rem, .5rem);
+    background-color: #e82574;
+}

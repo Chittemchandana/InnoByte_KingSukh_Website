@@ -1,0 +1,19 @@
+.navv {
+    position: relative;
+}
+
+.navv::after {
+    content: '';
+    background-color: #e82574; 
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    border-radius: 8px;
+    position: absolute;
+    transition: width 0.5s ease;
+}
+
+.navv:hover::after {
+    width: 100%;
+}
